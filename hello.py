@@ -1,4 +1,5 @@
-print("hello , world!");
-print("i'm learning python for AI");
+`import requests
 
-
+# download a web page
+response = requests.get("https://api.github.com");
+print(response.status_code) `
